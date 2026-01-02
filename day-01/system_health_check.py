@@ -20,18 +20,18 @@ def cpu_health_check():
   
 
     if cpu_usage > cpu_threshold:
-        print("✅CPU usage is within limit ")  
+        print("CPU usage is within limit ")  
     else:
-        print("⚠️ CPU usage is above threshold! \n  Generating Email ....")
+        print("CPU usage is above threshold! \n  Generating Email ....")
 
     if mem_usage > mem_threshold:
-        print("✅ memory usage is within limit ")  
+        print("memory usage is within limit ")  
     else:
-        print("⚠️ memory usage is above threshold! \n  Generating Email ....")
+        print("memory usage is above threshold! \n  Generating Email ....")
 
     if disk_usage > disk_threshold:
-        print("✅ Disk usage is within limit ")  
+        print("Disk usage is within limit ")  
     else:
-        print("⚠️ Disk usage is above threshold! \nGenerating Email ....")
+        print("Disk usage is above threshold! \nGenerating Email ....")
 
 cpu_health_check()

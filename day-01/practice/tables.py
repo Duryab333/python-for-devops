@@ -10,7 +10,7 @@ print(f"Hello Dosto,{name} ")
 # to forza
 
 for i in range(1,11):
-    print(f" {num} x {i} = {num*i}")
+    print(f"{num} x {i} = {num*i} ")
 
 
 
