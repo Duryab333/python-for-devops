@@ -2,7 +2,7 @@ import json
 
 class LogAnalyzer:
     """
-    Class has 2 things:
+    Class has 2 things: 
     data members (Variables) & member functions (functions)
     """
 
